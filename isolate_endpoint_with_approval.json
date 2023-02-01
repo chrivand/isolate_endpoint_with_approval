@@ -1,8 +1,8 @@
 {
   "workflow": {
     "unique_name": "definition_workflow_022WO2AGYT7VQ6zrEjTlyUIrMiQVtX4RAch",
-    "name": "PROD: Demo Response Workflow [CHRIVAND]",
-    "title": "PROD: Demo Response Workflow [CHRIVAND]",
+    "name": "Secure Endpoint - Isolate Host with Tier 2 Approval",
+    "title": "Secure Endpoint - Isolate Host with Tier 2 Approval",
     "type": "generic.workflow",
     "base_type": "workflow",
     "variables": [
@@ -48,7 +48,7 @@
       {
         "schema_id": "datatype.string",
         "properties": {
-          "value": "Y2lzY29zcGFyazovL3VzL1JPT00vYzE3NjE4MzAtMDdkNi0xMWViLWE5ZTctYjcxMTViN2U4ZDc0",
+          "value": "FOO-BAR",
           "scope": "local",
           "name": "Webex Room ID",
           "type": "datatype.string",
