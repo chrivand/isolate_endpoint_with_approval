@@ -26,21 +26,19 @@
 
 3. Click on **Browse** and copy paste the content of the [isolate_endpoint_with_approval.json](https://raw.githubusercontent.com/chrivand/isolate_endpoint_with_approval/master/isolate_endpoint_with_approval.json) file inside of the text window. 
 
-![](screenshots/copy-paste.png)
+![](copy-paste.png)
 
-4. Click on **IMPORT**. You will now receive an error that information is missing: 
+4. Click on **IMPORT**. Open up the workflow after importing it. You will now need to update 2 values, the Webex Access Token and the Webex Room ID (pro-tip: add the Webex Room ID bot to the space you want to use to get the ID): 
 
 ![](variables.png)
 
-5. Click on **UPDATE** and fill in the Webex API key (Input Variable: "Webex Access Token").
-
 > **Note:** Please retrieve your Webex key from: [https://developer.webex.com/docs/api/getting-started](https://developer.webex.com/docs/api/getting-started). Please be aware that the personal token from the getting started page only works for 12 hours. Please follow these steps to request a "bot" token: https://developer.webex.com/docs/integrations.
 
-6. Now it is time to test, click on **RUN** in the top right of your window and fill in 2 example values (e.g. `observable_type`: `amp_computer_guid`, observable_value`: `123456789`), and everything should be working now. The workflow will fail as this is not the correct `amp_computer_guid`, but you can test the workflow. 
+5. Now it is time to test, click on **RUN** in the top right of your window and fill in 2 example values (e.g. `observable_type`: `amp_computer_guid`, observable_value`: `123456789`), and everything should be working now. The workflow will fail as this is not the correct `amp_computer_guid`, but you can test the workflow. 
 
 ![](run.png)
 
-7. This workflow is a so called "Response" workflow, and can be triggered from the SecureX Threat Response pivot menu, when clicking on an `amp_computer_guid`:
+6. This workflow is a so called "Response" workflow, and can be triggered from the SecureX Threat Response pivot menu, when clicking on an `amp_computer_guid`:
 
 ![](pivot_menu.png)
 
