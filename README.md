@@ -22,7 +22,7 @@
 
 2. Click on **IMPORT** to import the workflow:
 
-![](screenshots/import-workflow.png)
+![](import-workflow.png)
 
 3. Click on **Browse** and copy paste the content of the [isolate_endpoint_with_approval.json](https://raw.githubusercontent.com/chrivand/isolate_endpoint_with_approval/master/isolate_endpoint_with_approval.json) file inside of the text window. 
 
@@ -30,7 +30,7 @@
 
 4. Click on **IMPORT**. You will now receive an error that information is missing: 
 
-![](screenshots/missing-info.png)
+![](variables.png)
 
 5. Click on **UPDATE** and fill in the Webex API key (Input Variable: "Webex Access Token").
 
@@ -38,11 +38,11 @@
 
 6. Now it is time to test, click on **RUN** in the top right of your window and fill in 2 example values (e.g. `observable_type`: `amp_computer_guid`, observable_value`: `123456789`), and everything should be working now. The workflow will fail as this is not the correct `amp_computer_guid`, but you can test the workflow. 
 
-![](screenshots/run.png)
+![](run.png)
 
 7. This workflow is a so called "Response" workflow, and can be triggered from the SecureX Threat Response pivot menu, when clicking on an `amp_computer_guid`:
 
-![](screenshots/pivot_menu.png)
+![](pivot_menu.png)
 
 ## Notes
 
